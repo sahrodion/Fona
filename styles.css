@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&family=Comfortaa&family=Prompt:wght@800&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgba(2, 2, 2, 0.932);
+	color: white;
+}
+
+nav{
+	display: flex;
+	/* width: 100%; */
+	height: 100px;
+	margin: 10px 45px;
+	padding: 0 10px;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo{
+	font-family: 'Prompt', sans-serif;
+	font-weight: 400;
+	font-size: 2rem;
+	cursor: pointer;
+	background-image: linear-gradient(to top, #171418 0%, #fff 85% );
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+}
+
+.navbar__links{
+	display: flex;
+}
+
+.navbar__item{
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	font-size: 18px;
+	color: #fff;
+	margin: 0 30px;
+	list-style: none;
+	transition: all 0.3s ease;
+	
+}
+
+.navbar__item :hover {
+	color: #5e5a5eb7;;
+	transition: all 0.3s ease;
+}
+
+a{
+	color: white;
+	text-decoration: none;
+}
+
+.mobile__menu{
+	display: none;
+}
+
+
+/* main content */
+
+.bigimage{
+	display: grid;
+	margin: 400px;
+	justify-content: center;
+	align-items: center;
+}
+
+p{
+	font-family: 'Comfortaa', cursive;
+	font-weight: 400;
+	font-size: 18px;	
+}
+
+.introtext{
+	justify-content: right;
+	align-items: right;
+}
+
+.bigtext{
+	font-family: 'Prompt', sans-serif;
+	font-weight: 800;
+	font-size: 13rem;
+	cursor: pointer;
+	background-image: linear-gradient(to top, #171418 0%, #fff 85% );
+	-webkit-background-clip: text;
+	-moz-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	-moz-text-fill-color: transparent;
+	margin: -50px;
+}
